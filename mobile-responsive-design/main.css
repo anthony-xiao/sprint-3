@@ -1,0 +1,31 @@
+.box1, .box2{
+    height: 200px;
+    display: inline-block;
+}
+
+.box1{
+    width: 100%;
+    background-color: red;
+}
+
+.box1::before{
+    content: "box1";
+}
+
+.box2{
+    width: 100%;
+    background-color: blue;
+}
+
+.box2::before{
+    content: "box2"
+}
+
+@media (min-width: 600px){
+    .box1{
+        width: 20%;
+    }
+    .box2{
+        width: 60%;
+    }
+}
