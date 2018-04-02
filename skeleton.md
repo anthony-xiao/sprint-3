@@ -1,0 +1,3 @@
+ What happens to the layout when you resize the screen to less than 550 px. How do you think that works?
+
+    The layout turns into the mobile format and the @media queries revers to allow the website to be back to what it was (mobile first site). How this works is becuase it is a mobile first site the webiste uses width-min, and when a screen resolution is above the set px than the media query rules apply, making the page more compatible to read on a larger screen. When it goes back to below 550px the website goes back to the set mobile format. 
